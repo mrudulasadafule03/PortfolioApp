@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle"
+        android:dividerPadding="12dp">
+
+        <!-- Certificate 1 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#212529"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📱 Android Development Certifications"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- Short Description -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Certified for completing Android Development training, demonstrating strong skills in building and deploying mobile applications using Java, Kotlin, XML, and Android Studio."
+                    android:textSize="13dp"
+                    android:textColor="#E5E5E5"
+                    android:layout_marginBottom="12dp"/>
+
+                <!-- Certificate Images -->
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/android_cert1"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:contentDescription="Android Development"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/android_cert1" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Certificate 2 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#212529"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🐍 Python Certificates"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- Short Description -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Completed multiple Python certifications demonstrating strong problem-solving, data handling, and software development skills."
+                    android:textSize="13dp"
+                    android:textColor="#E5E5E5"
+                    android:layout_marginBottom="12dp"/>
+
+                <!-- Certificate Images -->
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/python_cert1"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="Python Essentials 1"
+                            android:src="@drawable/python_cert1"/>
+
+                        <ImageView
+                            android:id="@+id/python_cert2"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="Python Essentials 2"
+                            android:src="@drawable/python_cert2"/>
+
+                        <ImageView
+                            android:id="@+id/python_cert3"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="Python Training on DSA Certificate"
+                            android:src="@drawable/python_cert3"/>
+
+                        <ImageView
+                            android:id="@+id/python_cert4"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="Advanced Company Specific Python Training Certificate"
+                            android:src="@drawable/python_cert4"/>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Certificate 3 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#212529"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="💻 Microsoft Certifications"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- Short Description -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Certified by Microsoft for completing Azure Fundamentals and Introduction to AI Concepts, demonstrating strong understanding of cloud computing and artificial intelligence basics."
+                    android:textSize="13dp"
+                    android:textColor="#E5E5E5"
+                    android:layout_marginBottom="12dp"/>
+
+                <!-- Certificate Images -->
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/microsoft_cert1"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="Azure Fundamentals"
+                            android:src="@drawable/microsoft_cert1"/>
+
+                        <ImageView
+                            android:id="@+id/microsoft_cert2"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="AI Concepts"
+                            android:src="@drawable/microsoft_cert2"/>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Certificate 4 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#212529"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🏅 Skill Enhancement Certificates"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@android:color/white"
+                    android:layout_marginBottom="8dp"/>
+
+                <!-- Short Description -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Certified for completing Soft Skills and Aptitude Training programs aimed at improving communication, problem-solving, and analytical abilities."
+                    android:textSize="13dp"
+                    android:textColor="#E5E5E5"
+                    android:layout_marginBottom="12dp"/>
+
+                <!-- Certificate Images -->
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/skill_cert1"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="Soft Skill"
+                            android:src="@drawable/skill_cert1"/>
+
+                        <ImageView
+                            android:id="@+id/skill_cert2"
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:layout_marginEnd="8dp"
+                            android:scaleType="centerCrop"
+                            android:contentDescription="Aptitude Training"
+                            android:src="@drawable/skill_cert2"/>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

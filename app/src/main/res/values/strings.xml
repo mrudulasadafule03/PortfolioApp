@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+
+    <!-- For Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Intro -->
+    <string name="about_intro">I’m a Computer Science student who is passionate about learning, exploring new technologies, and building real-world solutions.
+        I enjoy creating apps and platforms that improve user experience and solve practical problems.
+    </string>
+
+    <!-- Education -->
+    <string name="about_education">
+    🏛️ B.Tech in Computer Engineering\n
+    • A.G. Patil Institute of Technology, Solapur\n (2023 – 2026)\n
+    • DBATU University, Maharashtra\n
+    • CGPA: 7.21\n\n
+
+    🏫 Diploma in Computer Engineering\n
+    • Solapur Education Society’s Polytechnic, Solapur (2020 – 2023)\n
+    • MSBTE, Mumbai\n
+    • Final Year Percentage: 77.65%\n\n
+
+    📘 SSC (10th Grade)\n
+    • Mahaveer Highschool, Solapur (2019 – 2020)\n
+    • Pune Board, Pune\n
+    • Percentage: 74.20%
+    </string>
+
+    <!-- Skill -->
+    <string name="about_skills">
+       • PROGRAMMING LANGUAGES 💻\n
+        C | C++ |  HTML | CSS | PHP | Python | Java | JavaScript\n\n
+
+        • FRAMEWORKS/TOOLS 🛠️\n
+        React.js | Node.js/Express | MySQL | MongoDB\n\n
+
+        • CONCEPTS 🧠\n
+        Data Structures | Algorithms | Object-Oriented Programming | Computer Network\n\n
+
+        • DEVELOPMENT 🚀\n
+        Android Development | Web Development
+    </string>
+
+</resources>
