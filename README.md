@@ -78,10 +78,7 @@ app/
 
  ## Screenshots
 
+
 | About                                                                                    | Projects                                                                                           | Resume                                                                                         | Certificates                                                                                       |  Experiences                                                                                   |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| ![About](https://github.com/mrudulasadafule03/PortfolioApp/assets/AboutPage.jpg) | ![Projects](https://github.com/mrudulasadafule03/PortfolioApp/assets/ProjectPage.jpg) | ![Resume](https://github.com/mrudulasadafule03/PortfolioApp/assets/ResumePage.jpg) | ![Certificates](https://github.com/mrudulasadafule03/PortfolioApp/assets/CertificatesPage.jpg) | ![Experiences](https://github.com/mrudulasadafule03/PortfolioApp/assets/ExperiencePage.jpg)  |
-
-
-
-
+| <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/AboutPage.jpg" width="420px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ProjectPage.jpg" width="350px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ResumePage.jpg" width="650px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/CertificatePage.jpg" width="270px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ExperiencePage.jpg" width="350px">  |
