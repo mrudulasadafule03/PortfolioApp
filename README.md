@@ -81,7 +81,8 @@ app/
  ## Screenshots
 
 
-| About                                                                                    | Projects                                                                                           | Resume                                                                                         | Certificates                                                                                       |  Experiences                                                                                   |
-| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/AboutPage.jpg" width="420px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ProjectPage.jpg" width="350px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ResumePage.jpg" width="650px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/CertificatePage.jpg" width="270px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ExperiencePage.jpg" width="350px">  |
+| Light Mode                                                                                    | Dark Mode                 
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | 
+| <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/LightMode.jpg" width="420px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/DarkMode.jpg" width="350px"> |
+
 
