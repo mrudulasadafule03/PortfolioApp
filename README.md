@@ -83,6 +83,7 @@ app/
 
 | Light Mode                                                                                    | Dark Mode                 
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | 
-| <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/LightMode.jpg" width="420px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/DarkMode.jpg" width="350px"> |
+| <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/LightMode.jpg" width="420px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/DarkMode.jpg" width="420px"> |
+
 
 
