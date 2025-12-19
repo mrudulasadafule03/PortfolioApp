@@ -20,6 +20,8 @@
 
 - Full-Screen Image Viewer – Click on any certificate to view it in full screen with smooth fade transitions.
 
+- Light & Dark Mode Toggle – Switch between light and dark themes for better visual comfort.
+
 ---
 
 ## Built With
@@ -79,6 +81,8 @@ app/
  ## Screenshots
 
 
-| About                                                                                    | Projects                                                                                           | Resume                                                                                         | Certificates                                                                                       |  Experiences                                                                                   |
-| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/AboutPage.jpg" width="420px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ProjectPage.jpg" width="350px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ResumePage.jpg" width="650px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/CertificatePage.jpg" width="270px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/ExperiencePage.jpg" width="350px">  |
+| Light Mode                                                                                    | Dark Mode                 
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | 
+| <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/LightMode.jpg" width="420px"> | <img src="https://github.com/mrudulasadafule03/PortfolioApp/blob/main/assets/DarkMode.jpg" width="350px"> |
+
+
