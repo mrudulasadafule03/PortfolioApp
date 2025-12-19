@@ -1,86 +1,101 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#6c757d"
-    android:gravity="center_horizontal"
-    android:padding="16dp"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:background="@color/bg_color">
 
-    <!-- Fixed Profile Header -->
-    <ImageView
-        android:id="@+id/profileImage"
-        android:layout_width="84dp"
-        android:layout_height="120dp"
-        android:src="@drawable/profile"
-        android:scaleType="fitCenter"
-        android:background="@drawable/profile_square"
-        android:layout_marginTop="24dp"/>
-
-    <TextView
-        android:id="@+id/profileName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mrudula Sadafule"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="12dp" />
-
-    <TextView
-        android:id="@+id/profileUsername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="B.Tech. Student"
-        android:textSize="14sp"
-        android:textColor="#E5E5E5" />
-
-    <!-- Social Icons -->
+    <!-- MAIN CONTENT -->
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="12dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:background="@color/bg_color">
 
-        <!-- LinkedIn Icon -->
+        <!-- Profile Image -->
         <ImageView
-            android:id="@+id/linkedinIcon"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:src="@drawable/ic_linkedin"
-            android:layout_marginEnd="12dp"/>
+            android:id="@+id/profileImage"
+            android:layout_width="84dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile"
+            android:scaleType="fitCenter"
+            android:background="@drawable/profile_square"
+            android:layout_marginTop="24dp"/>
 
-        <!-- GitHub Icon -->
-        <ImageView
-            android:id="@+id/githubIcon"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:src="@drawable/ic_github"
-            android:layout_marginEnd="12dp"/>
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mrudula Sadafule"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="12dp" />
 
+        <TextView
+            android:id="@+id/profileUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B.Tech. Student"
+            android:textSize="14sp"
+            android:textColor="@color/text_color"
+            android:alpha="0.7" />
+
+        <!-- Social Icons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="12dp">
+
+            <ImageView
+                android:id="@+id/linkedinIcon"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_linkedin"
+                android:layout_marginEnd="12dp"/>
+
+            <ImageView
+                android:id="@+id/githubIcon"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/ic_github"
+                android:layout_marginEnd="12dp"/>
+        </LinearLayout>
+
+        <!-- Tabs -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="scrollable"
+            app:tabGravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@color/bg_color"
+            app:tabTextColor="@color/text_color"
+            app:tabSelectedTextColor="@color/text_color" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"/>
     </LinearLayout>
 
-    <!-- Tab Layout -->
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabMode="scrollable"
-        app:tabGravity="center"
-        android:background="#343a40"
-        app:tabTextColor="#B0B0B0"
-        app:tabSelectedTextColor="@android:color/white"
-        app:tabTextAppearance="@style/CustomTabText"
-        android:layout_marginTop="16dp"
-        app:tabRippleColor="@android:color/white" />
-
-    <!-- Content changes here -->
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginTop="12dp"/>
-</LinearLayout>
+    <!-- 🌗 LIGHT / DARK MODE BUTTON (TOP RIGHT) -->
+    <ImageButton
+        android:id="@+id/btnThemeToggle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="12dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_dark_mode"
+        android:contentDescription="Toggle Theme"
+        app:tint="@color/text_color"/>
+</FrameLayout>

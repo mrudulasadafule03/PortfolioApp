@@ -1,19 +1,8 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Portfolio" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:statusBarColor">#6c757d</item>
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+    <style name="Theme.Portfolio" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/bg_color</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
-
-    <style name="Theme.Portfolio" parent="Base.Theme.Portfolio" />
-
-    <!-- Custom Tab Text -->
-    <style name="CustomTabText" parent="TextAppearance.Design.Tab">
-        <item name="android:textSize">14sp</item>
-        <item name="android:textAllCaps">false</item>
-        <item name="android:singleLine">true</item>
-    </style>
-
 </resources>
